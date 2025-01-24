@@ -25,7 +25,7 @@ Welcome to my **Portfolio Website**! This repository showcases my personal proje
 
 ## 📸 Preview
 
-![Website Preview](https://via.placeholder.com/800x400?text=Portfolio+Website+Preview)
+![Website Preview](https://sx4im.github.io/portfolio/)
 
 ---
 
@@ -79,7 +79,7 @@ portfolio/
 
 ## 📬 Contact Me
 
-- **Email**: [sx4imm@gmail.com)](mailto:sx4imm@gmail.com)
+- **Email**: [sx4imm@gmail.com](mailto:sx4imm@gmail.com)
 - **LinkedIn**: [linkedin.com/in/sx4im](https://linkedin.com/in/sx4im)
 - **GitHub**: [github.com/sx4im](https://github.com/sx4im)
 
