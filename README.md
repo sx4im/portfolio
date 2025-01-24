@@ -25,7 +25,7 @@ Welcome to my **Portfolio Website**! This repository showcases my personal proje
 
 ## 📸 Preview
 
-[Website Preview](https://sx4im.github.io/portfolio/){:target="_blank"}
+[Website Preview](https://sx4im.github.io/portfolio/)
 
 ---
 
@@ -66,7 +66,7 @@ portfolio/
 ## ✨ Portfolio Highlights
 
 - 🖼️ **Project 1**: `Project Name`
-  - 🔗 [Live Demo](https://example.com){:target="_blank"}
+  - 🔗 [Live Demo](https://example.com)
   - 📂 [Source Code](https://github.com/sx4im/project1)
   - 🛠️ Built with: `Tech Stack`
 
@@ -79,9 +79,9 @@ portfolio/
 
 ## 📬 Contact Me
 
-- **Email**: [sx4imm@gmail.com](mailto:sx4imm@gmail.com){:target="_blank"}
-- **LinkedIn**: [linkedin.com/in/sx4im](https://linkedin.com/in/sx4im){:target="_blank"}
-- **GitHub**: [github.com/sx4im](https://github.com/sx4im){:target="_blank"}
+- **Email**: [sx4imm@gmail.com](mailto:sx4imm@gmail.com)
+- **LinkedIn**: [linkedin.com/in/sx4im](https://linkedin.com/in/sx4im)
+- **GitHub**: [github.com/sx4im](https://github.com/sx4im)
 
 ---
 
