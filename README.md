@@ -25,7 +25,7 @@ Welcome to my **Portfolio Website**! This repository showcases my personal proje
 
 ## 📸 Preview
 
-![Website Preview](https://sx4im.github.io/portfolio/)
+[Website Preview](https://sx4im.github.io/portfolio/)
 
 ---
 
