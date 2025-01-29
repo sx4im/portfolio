@@ -192,18 +192,6 @@ button {
 .type--A {
   --line_color: #000000;
   --back_color: linear-gradient(90deg, #25D366, #128C7E);
-
-}
-.type--B {
-  --line_color: #000000;
-  --back_color: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
-
-}
-.type--C {
-  --line_color: #000000;
-  --back_color: linear-gradient(90deg, #0077B5, #71c2ee);
-
-
 }
 
 .whatsapp {
