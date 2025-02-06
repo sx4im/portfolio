@@ -14,6 +14,7 @@ a{
   text-decoration: none !important;
   
 }
+
  /* contact form  */
 
 .contact-container {
@@ -11350,7 +11351,7 @@ textarea.form-control-lg {
 }
 
 .menu {
-  
+  font-family: "Poppins", sans-serif;
     background: #9926f0;
 }
   
