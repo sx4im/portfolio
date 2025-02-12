@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saim Portfolio</title>
+  <link rel="icon" type="img/png" href="images/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+</head>
+
+<body>
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 1 - THE NAVBAR SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="" style="text-align: center;">
+        <img src="images/logo.png" alt="logo image" style="max-width: 80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="rounded-pill btn-rounded" style="background-color: #ffffff; color: white;">
+          <a href="resume.pdf" target="_blank" style="text-decoration: none; color: rgb(0, 0, 0);">Resume
+            <span><i class="fas fa-file-alt"></i></span>
+          </a>
+        </button>
+        <style>
+          .btn-rounded:hover a {
+            color: white !important;
+          }
+        </style>
+      </div>
+    </div>
+  </nav>
+
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            START SECTION 2 - THE INTRO SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <!-- START THE CONTENT FOR THE INTRO  -->
+        <div class="col-md-6 intros text-start">
+          <h1 class="display-2">
+            <span class="display-2--intro">Hey!, I'm Saim</span>
+            <span class="display-2--description lh-base">
+              <b style="font-weight: 600; font-size: 1em;">Full-Stack Developer</b> specializing in modern web
+              technologies.
+              Crafting high-performance, user-centric web applications.
+              Dedicated to delivering innovative and scalable solutions.
+            </span>
+          </h1>
+          <a href="#contact">
+            <button class="cta">
+              <span class="span">Get in Touch</span>
+              <span class="second">
+                <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <path class="one"
+                      d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                      fill="#FFFFFF"></path>
+                    <path class="two"
+                      d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                      fill="#FFFFFF"></path>
+                    <path class="three"
+                      d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                      fill="#FFFFFF"></path>
+                  </g>
+                </svg>
+              </span>
+            </button></a>
+        </div>
+        <div class="col-md-6 intros text-end">
+            <div class="video-box"></div>
+            <img src="images/arts/intro.png" alt="video illustration" class="img-fluid" style="width: 500px; height: auto;">
+            </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+
+  <!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                         START SECTION 3 - THE SERVICES  
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">My Services</h1>
+        <div class="heading-line mb-1"></div>
+      </div>
+      <!-- START THE DESCRIPTION CONTENT  -->
+      <div class="row pt-2 pb-2 mt-0 mb-3">
+        <div class="col-md-6 border-right">
+          <div class="bg-white p-3">
+            <h2 class="fw-bold text-capitalize text-center">
+              My Services Range From Initial Design To Deployment Anywhere & Anytime
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="bg-white p-4 text-start">
+            <p class="fw-light">
+              We provide end-to-end solutions, from strategy and development to seamless integration and beyond,
+              ensuring excellence at every step, anytime, anywhere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START THE CONTENT FOR THE SERVICES  -->
+    <div class="container">
+      <!-- START THE MARKETING CONTENT  -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="display-3--title mt-1">Marketing</h3>
+            <p class="lh-lg">
+              SEO Optimization <br>
+              Analytics & Tracking Integration<br>
+              Email & Social Media Marketing Integration<br>
+              Content Management Systems (CMS)<br>
+              Conversion Rate Optimization (CRO)
+            </p>
+            <button class="readmore-btn">
+              <span class="book-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(86, 69, 117)" viewBox="0 0 126 75" class="book">
+                  <rect stroke-width="3" stroke="#fff" rx="7.5" height="70" width="121" y="2.5" x="2.5"></rect>
+                  <line stroke-width="3" stroke="#fff" y2="75" x2="63.5" x1="63.5"></line>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M25 20H50"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M101 20H76"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M16 30L50 30"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M110 30L76 30"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 65 75" class="book-page">
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M40 20H15"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M49 30L15 30"></path>
+                  <path stroke-width="3" stroke="#fff"
+                    d="M2.5 2.5H55C59.1421 2.5 62.5 5.85786 62.5 10V65C62.5 69.1421 59.1421 72.5 55 72.5H2.5V2.5Z">
+                  </path>
+                </svg>
+              </span>
+              <span class="text"> Learn More</span>
+            </button>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <!-- START THE WEB DEVELOPMENT CONTENT  -->
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-code"></div>
+            <h3 class="display-3--title mt-1">web development</h3>
+            <p class="lh-lg">
+              Responsive websites (HTML, CSS, JavaScript, React etc.)<br>
+              Backend development (Node.js, Express,js etc.)<br>
+              Progressive Web Apps (PWAs)<br>
+              Single-Page Applications (SPAs)
+            </p>
+            <button class="readmore-btn">
+              <span class="book-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(86, 69, 117)" viewBox="0 0 126 75" class="book">
+                  <rect stroke-width="3" stroke="#fff" rx="7.5" height="70" width="121" y="2.5" x="2.5"></rect>
+                  <line stroke-width="3" stroke="#fff" y2="75" x2="63.5" x1="63.5"></line>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M25 20H50"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M101 20H76"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M16 30L50 30"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M110 30L76 30"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 65 75" class="book-page">
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M40 20H15"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M49 30L15 30"></path>
+                  <path stroke-width="3" stroke="#fff"
+                    d="M2.5 2.5H55C59.1421 2.5 62.5 5.85786 62.5 10V65C62.5 69.1421 59.1421 72.5 55 72.5H2.5V2.5Z">
+                  </path>
+                </svg>
+              </span>
+              <span class="text"> Learn More</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+          <div class="services__pic">
+            <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <!-- START THE CLOUD HOSTING CONTENT  -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-cloud-upload-alt"></div>
+            <h3 class="display-3--title mt-1">cloud hosting</h3>
+            <p class="lh-lg">
+              Cloud Hosting & Deployment <br>
+              Scalable Infrastructure Solutions <br>
+              Serverless Architecture<br>
+              Data Backup & Disaster Recovery<br>
+              Cloud Security & Compliance
+            </p>
+            <button class="readmore-btn">
+              <span class="book-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(86, 69, 117)" viewBox="0 0 126 75" class="book">
+                  <rect stroke-width="3" stroke="#fff" rx="7.5" height="70" width="121" y="2.5" x="2.5"></rect>
+                  <line stroke-width="3" stroke="#fff" y2="75" x2="63.5" x1="63.5"></line>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M25 20H50"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M101 20H76"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M16 30L50 30"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M110 30L76 30"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 65 75" class="book-page">
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M40 20H15"></path>
+                  <path stroke-linecap="round" stroke-width="4" stroke="#fff" d="M49 30L15 30"></path>
+                  <path stroke-width="3" stroke="#fff"
+                    d="M2.5 2.5H55C59.1421 2.5 62.5 5.85786 62.5 10V65C62.5 69.1421 59.1421 72.5 55 72.5H2.5V2.5Z">
+                  </path>
+                </svg>
+              </span>
+              <span class="text"> Learn More</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 4 - THE ABOUT ME
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section id="testimonials" class="testimonials">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row text-center text-white">
+        <h1 class="display-3 fw-bold">About Me</h1>
+        <hr style="width: 100px; height: 3px; " class="mx-auto">
+        <p class="lead pt-1">My Education & Experience</p>
+      </div>
+
+      <!-- START THE CAROUSEL CONTENT  -->
+      <div class="row align-items-center">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- CAROUSEL ITEM 1 -->
+            <div class="carousel-item active">
+              <!-- testimonials card  -->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  <b>Harvard University cs50x</b> <br>
+                  Successfully completed CS50x 2023-24, where I developed a strong foundation in
+                  programming, web development, and core computing concepts.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- CAROUSEL ITEM 2 -->
+            <div class="carousel-item">
+              <!-- testimonials card  -->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  <b>Punjab College, Hafizabad</b> <br>
+                  I completed my intermediate education in FSc Pre-Engineering , where I not only mastered the core
+                  subjects, but also developed a strong analytical mindset.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- CAROUSEL ITEM 3 -->
+            <div class="carousel-item">
+              <!-- testimonials card  -->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  <b>Punjab University, Gujranwala</b> <br>
+                  I am currently pursuing a degree in Mathematics, where I am actively engaging with advanced
+                  mathematical
+                  concepts while integrating technology into my learning.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- CAROUSEL ITEM 4 -->
+            <div class="carousel-item">
+              <!-- testimonials card  -->
+              <div class="testimonials__card">
+                <p class="lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  I have honed my skills in <b>Web Development</b> and <b>AI&ML</b> through rigorous programs at
+                  institutions like NCIT as well as self-paced courses on
+                  leading online platforms with 2 year of experience.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-left me-2" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            </button>
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-right ms-2" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                       START SECTION 6 - THE FAQ 
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+        <div class="heading-line"></div>
+        <p class="lead">Frequently asked questions, get knowledge befere hand</p>
+      </div>
+      <!-- ACCORDION CONTENT  -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <!-- ACCORDION ITEM 1 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  What services do I offer?"
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  I specialize in building end-to-end web applications, from designing engaging user interfaces to
+                  implementing robust backend systems. My services include web development, API integration, database
+                  design, and cloud deployment.
+                </div>
+              </div>
+            </div>
+            <!-- ACCORDION ITEM 2 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What technologies do I work with?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  I have expertise in modern technologies including <code>Javascript, Node.js, Express, Python
+                  or MongoDB</code>. I am also experienced in working with cloud platforms like AWS and Azure for
+                  hosting and
+                  deployment.
+                </div>
+              </div>
+            </div>
+            <!-- ACCORDION ITEM 3 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Can I help with existing projects?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, I can assist in maintaining and enhancing your existing web applications. Whether it’s debugging,
+                  adding new features, or optimizing performance, I have the skills and experience to address a wide
+                  range of needs.
+                </div>
+              </div>
+            </div>
+            <!-- ACCORDION ITEM 4 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  How can you contact me for a project?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  I am available for inquiries, collaborations, or any questions you may have. You can easily reach me
+                  through the contact form on this website, which provides a direct way to get in touch. Alternatively,
+                  feel free to email me at
+                  <a href="mailto:sx4imm@gmail.com" style="text-decoration: none;">sx4imm@gmail.com </a>.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                              START SECTION 7 - THE PORTFOLIO  
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row text-center mt-5">
+        <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          "Explore my most recent projects, showcasing innovative designs, functional websites, and creative mockups.
+          Each piece reflects my dedication to delivering high-quality results tailored to client needs and user
+          experiences."
+        </p>
+      </div>
+      <br>
+      <!-- START THE PORTFOLIO ITEMS  -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 1</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 2</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 3</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 4</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 5</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>project name goes here 6</h4>
+                <p>category project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
+              START SECTION 8 - GET STARTED  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section id="contact" class="get-started">
+
+    <div class="contact-container">
+      <div class="contact-content-wrapper">
+        <div class="contact-decorative-circle contact-circle-1"></div>
+        <div class="contact-decorative-circle contact-circle-2"></div>
+
+        <!-- Bubbles will be added here dynamically by JavaScript -->
+
+        <div class="contact-illustration">
+          <img src="images/contact.png" alt="Contact illustration" class="contact-image">
+        </div>
+
+        <div class="contact-form-container">
+          <h1 class="contact-heading">Get in Touch</h1>
+          <p class="contact-description">We'd love to hear from you. Send us a message and we'll respond as soon as
+            possible.</p>
+
+          <form id="contact-form">
+            <div class="contact-input-group">
+              <input type="text" id="contact-name" class="contact-input" placeholder=" " required>
+              <label for="contact-name" class="contact-label">Full Name</label>
+            </div>
+
+            <div class="contact-input-group">
+              <input type="email" id="contact-email" class="contact-input" placeholder=" " required>
+              <label for="contact-email" class="contact-label">Email Address</label>
+            </div>
+
+            <div class="contact-input-group">
+              <textarea id="contact-message" class="contact-textarea" placeholder=" " required></textarea>
+              <label for="contact-message" class="contact-label">Your Message</label>
+            </div>
+
+            <!-- <button type="submit" class="contact-submit-btn">Send Message</button> -->
+            <button type="submit" class="custom-hover-button">
+              Send Message
+            </button>
+          </form>
+          <div id="formMessage" style="display:none; color: green; margin-top: 10px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                           START SECTION 9 - THE FOOTER  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- CONTENT FOR THE MOBILE NUMBER  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="tel:+923704831117" target="_blank" class="contact-box__info--title">0370 4831117</a>
+            <p class="contact-box__info--subtitle"> Mon-Fri 9am-10pm</p>
+          </div>
+        </div>
+        <!-- CONTENT FOR EMAIL  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="mailto:sx4imm@gmail.com" target="_blank" class="contact-box__info--title">sx4imm@gmail.com</a>
+            <p class="contact-box__info--subtitle">Online support</p>
+          </div>
+        </div>
+        <!-- CONTENT FOR LOCATION  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
+              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="https://maps.app.goo.gl/y6Xe5C9Z3rwaC25h7" target="_blank"
+              class="contact-box__info--title">Hafizabad, Pakistan</a>
+            <p class="contact-box__info--subtitle">Vanike Road, Jharianwala</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START THE SOCIAL MEDIA CONTENT  -->
+    <div class="footer-sm" style="background-color: #212121;">
+      <div class="container">
+        <div class="row py-4 text-center text-white">
+          <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+            Connect with us on social media
+          </div>
+          <div class="col-lg-7 col-md-6 social-icons">
+            <a href="https://www.instagram.com/sx4im" target="_blank" style="text-decoration: none;">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100086508280642&mibextid=ZbWKwL" target="_blank"
+              style="text-decoration: none;">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sx4im" target="_blank" style="text-decoration: none;">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://x.com/sx4im?t=L8DUKOTUaMP2XmGyS5OfKw&s=09" target="_blank" style="text-decoration: none;">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/923704831117" target="_blank" style="text-decoration: none;">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- START THE COPYRIGHT INFO  -->
+    <div class="footer-bottom pt-5 pb-5">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-12">
+            <div class="footer-bottom__copyright">
+              &COPY; Copyright 2024 <b>sx4im</b> | Created by Saim Shafique</a><br><br>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON  -->
+  <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+
+
+  </script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    VANTA.BIRDS({
+      el: "#home",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: 0x9926f0,
+      birdSize: 0.80,
+      speedLimit: 7.00,
+      separation: 39.00
+    })
+  </script>
+  <script>
+    VANTA.NET({
+      el: "#testimonials",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xfafafa,
+      backgroundColor: 0x9926f0,
+      points: 10.00,
+      maxDistance: 20.00,
+      spacing: 18.00
+    })
+  </script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
